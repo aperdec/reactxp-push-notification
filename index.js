@@ -1,6 +1,6 @@
 'use strict';
 
-var PushNotifications = {
+var PushNotification = {
     handler: null,
     onRegister: false,
     onError: false,
@@ -18,79 +18,79 @@ var PushNotifications = {
     }
 };
 
-PushNotifications.callNative = function(name, params) {
+PushNotification.callNative = function(name, params) {
     /* void */
 };
 
-PushNotifications.configure = function(options) {
+PushNotification.configure = function(options) {
     /* void */
 };
 
-PushNotifications.unregister = function() {
+PushNotification.unregister = function() {
     /* void */
 };
 
-PushNotifications.localNotification = function(details) {
+PushNotification.localNotification = function(details) {
     /* void */
 };
 
-PushNotifications.localNotificationSchedule = function(details) {
+PushNotification.localNotificationSchedule = function(details) {
     /* void */
 };
 
-PushNotifications._onRegister = function(token) {
+PushNotification._onRegister = function(token) {
     /* void */
 };
 
-PushNotifications._onRemoteFetch = function(notificationData) {
+PushNotification._onRemoteFetch = function(notificationData) {
     /* void */
 };
 
-PushNotifications._onNotification = function(data, isFromBackground = null) {
+PushNotification._onNotification = function(data, isFromBackground = null) {
     /* void */
 };
 
-PushNotifications._onPermissionResult = function() {
+PushNotification._onPermissionResult = function() {
     /* void */
 };
 
-PushNotifications._requestPermissions = function() {
+PushNotification._requestPermissions = function() {
     /* void */
 };
 
-PushNotifications.requestPermissions = function() {
+PushNotification.requestPermissions = function() {
     /* void */
 };
 
-PushNotifications.presentLocalNotification = function() {
+PushNotification.presentLocalNotification = function() {
     /* void */
 };
 
-PushNotifications.scheduleLocalNotification = function() {
+PushNotification.scheduleLocalNotification = function() {
     /* void */
 };
 
-PushNotifications.cancelLocalNotifications = function() {
+PushNotification.cancelLocalNotifications = function() {
     /* void */
 };
 
-PushNotifications.cancelAllLocalNotifications = function() {
+PushNotification.cancelAllLocalNotifications = function() {
     /* void */
 };
 
-PushNotifications.setApplicationIconBadgeNumber = function() {
+PushNotification.setApplicationIconBadgeNumber = function() {
     /* void */
 };
 
-PushNotifications.getApplicationIconBadgeNumber = function() {
+PushNotification.getApplicationIconBadgeNumber = function() {
     /* void */
 };
 
-PushNotifications.popInitialNotification = function(handler) {
+PushNotification.popInitialNotification = function(handler) {
     /* void */
 };
 
-PushNotifications.abandonPermissions = function() {
+PushNotification.abandonPermissions = function() {
     /* void */
 };
 
