@@ -94,6 +94,12 @@ PushNotification.abandonPermissions = function() {
     /* void */
 };
 
-module.exports = {
-  PushNotification
+PushNotification.registerNotificationActions = function() {
+    /* void */
 };
+
+PushNotification.clearAllNotifications = function() {
+    /* void */
+};
+
+module.exports = PushNotification;

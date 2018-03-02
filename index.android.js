@@ -55,3 +55,57 @@ PushNotification._onNotification = function (data, isFromBackground = null) {
 PushNotification._onPermissionResult = function () {
     RNPushNotification._onPermissionResult();
 };
+
+PushNotification._requestPermissions = function () {
+    RNPushNotification._requestPermissions();
+};
+
+PushNotification.requestPermissions = function () {
+    RNPushNotification.requestPermissions();
+};
+
+PushNotification.presentLocalNotification = function () {
+    RNPushNotification.presentLocalNotification();
+};
+
+PushNotification.scheduleLocalNotification = function () {
+    RNPushNotification.scheduleLocalNotification();
+};
+
+PushNotification.cancelLocalNotifications = function () {
+    RNPushNotification.cancelLocalNotifications();
+};
+
+PushNotification.cancelAllLocalNotifications = function () {
+    RNPushNotification.cancelAllLocalNotifications();
+};
+
+PushNotification.setApplicationIconBadgeNumber = function () {
+    RNPushNotification.setApplicationIconBadgeNumber();
+};
+
+PushNotification.getApplicationIconBadgeNumber = function () {
+    RNPushNotification.getApplicationIconBadgeNumber();
+};
+
+PushNotification.popInitialNotification = function (handler) {
+    RNPushNotification.popInitialNotification();
+};
+
+PushNotification.abandonPermissions = function () {
+    RNPushNotification.abandonPermissions();
+};
+
+PushNotification.checkPermissions = function () {
+    RNPushNotification.checkPermissions();
+};
+
+PushNotification.registerNotificationActions = function () {
+    RNPushNotification.registerNotificationActions();
+};
+
+PushNotification.clearAllNotifications = function () {
+    RNPushNotification.clearAllNotifications();
+};
+
+module.exports = PushNotification;
