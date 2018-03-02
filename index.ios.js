@@ -2,7 +2,7 @@
 
 var RNPushNotification = require('react-native-push-notification');
 
-var Notifications = {
+var PushNotification = {
     handler: RNPushNotification.handler,
     onRegister: false,
     onError: false,
@@ -20,38 +20,38 @@ var Notifications = {
     }
 };
 
-Notifications.callNative = function (name: String, params: Array) {
+PushNotification.callNative = function (name: String, params: Array) {
     RNPushNotification.callNative(name, params);
 };
 
-Notifications.configure = function (options: Object) {
+PushNotification.configure = function (options: Object) {
     RNPushNotification.configure(options);
 };
 
-Notifications.unregister = function () {
+PushNotification.unregister = function () {
     RNPushNotification.unregister();
 };
 
-Notifications.localNotification = function (details: Object) {
+PushNotification.localNotification = function (details: Object) {
     RNPushNotification.localNotification(details);
 };
 
-Notifications.localNotificationSchedule = function (details: Object) {
+PushNotification.localNotificationSchedule = function (details: Object) {
     RNPushNotification.localNotificationSchedule(details);
 };
 
-Notifications._onRegister = function (token: String) {
+PushNotification._onRegister = function (token: String) {
     RNPushNotification._onRegister(token);
 };
 
-Notifications._onRemoteFetch = function (notificationData: Object) {
+PushNotification._onRemoteFetch = function (notificationData: Object) {
     RNPushNotification._onRemoteFetch(notificationData);
 };
 
-Notifications._onNotification = function (data, isFromBackground = null) {
+PushNotification._onNotification = function (data, isFromBackground = null) {
     RNPushNotification._onNotification(data);
 };
 
-Notifications._onPermissionResult = function () {
+PushNotification._onPermissionResult = function () {
     RNPushNotification._onPermissionResult();
 };
