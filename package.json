@@ -1,7 +1,7 @@
 {
   "name": "reactxp-push-notification",
-  "version": "0.0.2",
-  "description": "Plugin for ReactXP that provides support for Application Notifications for Android and iOS",
+  "version": "0.0.3",
+  "description": "Plugin for ReactXP that provides support for Push Notifications for Android and iOS",
   "author": "Andrew Perdec <aperdec@gmail.com>",
   "license": "MIT",
   "scripts": {
