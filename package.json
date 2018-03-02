@@ -5,14 +5,13 @@
   "author": "Andrew Perdec <aperdec@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "npm run tslint && tsc"
+    "build": "tsc"
   },
   "dependencies": {
     "react-native-push-notification": "^3.0.2",
     "reactxp": "latest"
   },
   "devDependencies": {
-    "@types/react-native-push-notification": "^3.0.2",
     "typescript": "^2.4.1"
   }
 }
