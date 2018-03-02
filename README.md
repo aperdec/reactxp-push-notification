@@ -1,4 +1,6 @@
 # ReactXP-Push-Notification
+[![npm version](https://img.shields.io/npm/v/reactxp-push-notification.svg?style=flat)](https://www.npmjs.com/package/reactxp-push-notification)
+
 This module provides cross-platform support for push notifications within the [ReactXP](https://microsoft.github.io/reactxp/) library. Push notifications are supported on Android and iOS. 
 
 ## Documentation
