@@ -1,18 +1,17 @@
 {
   "name": "reactxp-push-notification",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin for ReactXP that provides support for Application Notifications for Android and iOS",
   "author": "Andrew Perdec <aperdec@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "npm run tslint && tsc"
+    "build": "tsc"
   },
   "dependencies": {
     "react-native-push-notification": "^3.0.2",
     "reactxp": "latest"
   },
   "devDependencies": {
-    "@types/react-native-push-notification": "^3.0.2",
     "typescript": "^2.4.1"
   }
 }
