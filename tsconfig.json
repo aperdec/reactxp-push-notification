@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "declaration": true,
+        "declaration": false,
         "noResolve": false,
         "jsx": "react",
         "module": "commonjs",
@@ -11,7 +11,7 @@
     },
 
     "filesGlob": [
-        "src/**/*{ts,tsx}"
+        "src/**/*"
     ],
 
     "exclude": [
